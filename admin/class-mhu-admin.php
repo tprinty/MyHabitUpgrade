@@ -621,9 +621,9 @@ class MHU_Admin {
 		
 		//Twillio stuff
 		require('twilio-php/Services/Twilio.php');
-		$sid = "AC9fb75f2af562049e2530d7f885f989ed"; // Your Account SID from www.twilio.com/user/account
-		$token = "b8ec628e1b282bb6e3decaa04795c942"; // Your Auth Token from www.twilio.com/user/account
-		$smsfrom = "17085504040";
+		$sid = "##################"; // Your Account SID from www.twilio.com/user/account
+		$token = "#######################"; // Your Auth Token from www.twilio.com/user/account
+		$smsfrom = "0000000";
 		$client = new Services_Twilio($sid, $token);
 		
 		//Get list of all active users 
